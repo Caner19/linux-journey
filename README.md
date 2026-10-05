@@ -1,2 +1,35 @@
-# linux-journey
-My Linux, networking, and cloud notes during my Cloud Computing studies.
+- **`pwd`**: Hangi klasörde olduğunu gösterir (mevcut dizin).
+- **`cd`**: Klasörler arasında geçiş yapmanı sağlar.
+- **`mkdir`**: Yeni bir klasör oluşturur.
+- **`ls`**: Bulunduğun klasördeki dosya ve klasörleri listeler.
+- **`touch`**: Boş bir dosya oluşturur.
+- **`rmdir`**: İçi boş olan klasörü siler.
+- **`rm -r`**: Klasörü içindeki her şeyle birlikte siler.
+- **`nano`** :Terminal içindeki **Not Defteri**’dir.
+- **`cat`**:Bir dosyanın **içeriğini terminal ekranına bastırmaya (okumaya)** yarar.
+- **`cp` (Copy):** Dosya veya klasörleri **kopyalamaya (çoğaltmaya)** yarar.
+- **`mv` (Move):** Dosya veya klasörleri **taşıtmaya** ya da **adını değiştirmeye** yarar.
+- **`date`** : Tarih ve saati gösterir.
+- **`echo`** : Ekrana yazı yazdırır (`echo "Selam"`).
+- **`history`** : Geçmişte yazdığın komutları listeler.
+- **`man`** : Komutların kullanım kılavuzunu açar (`man ls`).
+- **`ls -l`**:Bulunduğun klasördeki dosya ve klasörleri **"uzun liste" (long format)** biçiminde, yani tüm detaylarıyla birlikte ekrana basan Linux komutudur.
+- **`ls -lt`**:Klasördeki dosyaları **en son değiştirilen en üstte** olacak şekilde tarihe göre sıralı listeler.
+- `ls -ltr`:Komutu, klasördeki dosyaları **en eskiden en yeniye** doğru detaylarıyla listeler.
+- `ls -a` :Gizli dosyaları görünür yapar.(Başında “.” olanlar gizlidir.)
+- `cp -pr`  :Klasörleri kopyalar.
+- `cat -n` :Dosyanın içeriğini numara vererek gösterir.
+- `man ...` :”…” yerine öğrenmek istediğin her şeyi yaz.Mesela man ls,man cat gibi.
+- **`more`**:Uzun metin veya log dosyalarını **sayfa sayfa (ekrana sığacak kadar)** okumanı sağlayan terminal komutudur.
+- **`less`**:Metin ve log dosyalarını sayfa sayfa okumanı sağlayan, **`more` komutunun çok daha gelişmiş versiyonudur.**
+- **`head`**:Bir dosyanın **en başındaki (ilk) satırları** ekrana basan komuttur.
+- **`head -n 1,2,3...`**:Numara vererek ona göre baştaki satırları görebilirsin.Mesela “head -n 4” 4. satırından itibaren görürsün.
+- **`tail`**:Bu da dosyanın son satırını okur.
+- **`uname`**: İşletim sisteminin adını gösterir (örn: `Linux`).
+- **`uname -a`**: Sistemle ilgili **tüm detaylı bilgileri** verir (çekirdek sürümü, mimari, işletim sistemi).
+- **`top`**: Görev Yöneticisi'dir. Çalışan süreçleri, CPU ve RAM kullanımını **canlı** gösterir (`q` ile çıkılır).
+- **`df`**: Disk alanını ve doluluk oranını gösterir (bayt cinsinden).
+- **`df -kh`**: Disk alanını **okunabilir formatta** (MB, GB cinsinden) ve türünü gösterir (`h` = human readable).
+- **`lscpu`**: İşlemcinin (CPU) tüm teknik özelliklerini ve mimarisini listeler.
+- **`whoami`**: O anda hangi kullanıcı olarak oturum açtığını söyler.
+- **`find`**: Disk üzerinde dosya veya klasör **arama** yapar (örn: `find . -name "*.txt"`).
